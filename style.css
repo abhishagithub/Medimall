@@ -15,4 +15,24 @@ header .col-header a:hover {color: blue;}
 /* -------------------------------header end-------------------------------------------------------------------- */
 
 
-.logo_area{padding: 15px 0px;}
+.logo_area{padding: 30px 0px;}
+.search-field{background-color: #eee; padding: 8px 10px; border-radius: 50px;}
+.inner-area{display: flex;}
+button{border: none; background-color: none; padding: 5px 50px; outline: 0; background-color: #eee; font-size: 15px;}
+input{border: none; background-color: none; padding: 8px 50px; outline: 0; background-color: #eee; font-size: 14px;}
+.inner-area button{font-size: 15px; font-weight: 600; display: inline-block;}
+.inner-area input{width: 500px; display: inline-block;margin-left: -50px; margin-top: 3px;}
+.dropdown button i{background-color: white; color: #064acb; display: inline-block; width: 25px; height: 25px; border-radius: 100px; line-height: 27px; margin-right: 10px; margin-left: -50px;}
+.input-field i{margin-right: 10px; color: #064acb;}
+.inner-area .sec-list2::after{content: ''; height: 15px; background-color: rgba(00, 00, 00, 0.5); display: inline-block; width: 1.5px; margin-left: 50px;}
+.cart ul{list-style: none; display: flex;}
+.cart li{position: relative;}
+.cart ul li{padding-right: 20px; font-size: 15px; display: block;}
+.cart li span{background-color: orange; position: absolute; top: -8px; width: 15px; height: 15px;
+text-align: center; line-height: 15px; font-size: 12px; border-radius: 15px;}
+
+/* -------------------------------------------------Logo End--------------------------------------------------------- */
+
+.navbar{background-color: #064acb; color: white;}
+.menu a{color: white; padding: 20px;}
+.menu ul{list-style: none; display: flex;}
